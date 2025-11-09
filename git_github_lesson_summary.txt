@@ -1,0 +1,42 @@
+GIT AND GITHUB LESSON
+
+- what is a command line and most useful commands
+- what is Git
+- what is GitHub
+- how they are connected
+- how to create a GitHub repository
+- how to connect the local machine to GitHub (cloud)
+
+COMMAND LINE
+-path: an address in your computer
+-commands: cd, cd .., mkdir, rmdir, touch/echo, del <file name>
+
+Git and GitHub
+- what is Git? a version control system
+- what is GitHub? it is the "cloud" connected to git.
+
+
+some vocabulary :
+repository
+staging area
+commit
+branch
+
+
+Git commands:
+git init - creates a repository on your local machine
+git add <file name> or dor (.)
+git commit -m "finished homepage" - gives the name of the version
+git push
+git pull
+git clone (makes a copy of a repo on your pc)
+
+
+Most important commands to do everyday to update your repository:
+git add .
+git commit -m "finished w1d2daily challenge"
+git push
+
+
+
+
