@@ -13,7 +13,7 @@ for i in range(4):
 # Write code that calculates the result of:
 # (99^3)*8 (meaning 99 to the power of 3, times 8).
 
-print((99^3)*8)
+print((99**3)*8)
 
 
 # Exercise 3: What is the output?
