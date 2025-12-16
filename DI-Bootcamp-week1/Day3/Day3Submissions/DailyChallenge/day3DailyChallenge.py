@@ -1,6 +1,5 @@
 #Challenge 1: Letter Index Dictionary
 
-#user_word = input('Enter a word: ')
 #review each char in str
 #for each, pay attention to index and what char
 #check char against what's already in the dictionary's keys
@@ -8,10 +7,11 @@
 #else, made new dict key value pair
 #char = key, index = value
 
+user_word = input('Enter a word: ')
 word_dict = {}
 for i, char in enumerate(user_word):
     if char in word_dict:
-        word_dict[char].append
+        word_dict[char].append#(i)
     else:
         word_dict[char] = [i]
 print(word_dict)
@@ -32,6 +32,9 @@ print(word_dict)
 # for each k-v pair, look at value 
 # clean value & convert to integer
 # reassociate cleaned value with the same key in the dictionary
+
+# items_purchase = {}
+# wallet = ('')
 for key, value in items_purchase.items():
     no_sign = value.replace('$', '')
     no_comma = no_sign.replace(',', '')
